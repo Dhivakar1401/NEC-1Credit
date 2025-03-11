@@ -2,8 +2,8 @@
 version: '3'
 services :
   Saran_Personal_api :
-     image : "ssaran2701/22it045-personal-api"
-     container_name : saran_personal_api_container
+     image : "dhivakart271/personalapi22it007-docker"
+     container_name : dhivakar_personal_api_container
      restart : always
      ports :
        - "5001:5000"
