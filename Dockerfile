@@ -1,15 +1,13 @@
-# Update this file to add the content
-version: '3'
-services :
-  Saran_Personal_api :
-     image : "ssaran2701/22it045-personal-api"
-     container_name : saran_personal_api_container
-     restart : always
-     ports :
-       - "5001:5000"
-  Saran_ml_model :
-      image: "ssaran2701/ml-model.py"
-      container_name : saran_ml_model_container
-      restart : always
-      ports :
-       - "5002:5000"
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install --no-cache-dir flask
+
+EXPOSE 5000
+
+ENV FLASK_APP=ml-model.py
+
+CMD ["flask","run","--host=0.0.0.0"]
