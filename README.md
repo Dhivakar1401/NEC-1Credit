@@ -21,3 +21,13 @@ dhivakart271
 
 ![image](https://github.com/user-attachments/assets/ae912268-0b84-4e99-9f3a-36b8e78c029c)
 
+6. build the ml-model and personal-api to docker image 
+    ![Screenshot 2025-03-11 201841](https://github.com/user-attachments/assets/58cb55f6-1c07-419e-9e60-95deaa08e218)
+
+7. push the docker image to docker hub 
+   ![Screenshot 2025-03-11 201906](https://github.com/user-attachments/assets/5d2471f9-65a7-4077-8e9e-6cff5da7d59b)
+
+8. running rends multi docker image in cmpose.yaml file
+![Screenshot 2025-03-11 202941](https://github.com/user-attachments/assets/8e6d68f2-78b9-46ef-8ff6-0254fa5d51ce)
+
+
