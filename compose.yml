@@ -1,7 +1,7 @@
 # Update this file to add the content
 version: '3'
 services :
-  Saran_Personal_api :
+  Dhivakar_Personal_api :
      image : "dhivakart271/personalapi22it007-docker"
      container_name : dhivakar_personal_api_container
      restart : always
